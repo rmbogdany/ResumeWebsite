@@ -1,0 +1,65 @@
+html, body{
+	margin: 0;
+	height: 100%;
+	font-family: "Courier New";
+}
+.intro{
+	width:50%;
+	position: absolute;
+	bottom:0px;
+	padding-left: 6%;
+	padding-bottom: 5%;
+}
+.heading{
+	font-weight: bold;
+	font-size: 40px;
+}
+.leftside{
+	float: left;
+	background-color: #49C0BC;
+	width: 65%;
+	height: 100%;
+	color: white;
+}
+.rightside{
+	float: left;
+	width: 35%;
+	height:100%;
+}
+.button{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	border-top:    3px solid #49C0BC;
+	border-left:  3px solid #49C0BC; 
+	border-bottom: 3px solid #49C0BC;
+	padding-top:7%;	
+	padding-bottom:7%;
+}
+.button:hover {
+	background-color: #49C0BC;
+	cursor: pointer;
+	color: white;
+	text-decoration: underline;
+}
+.whitespace{
+	height:25%;
+}
+img{
+	border-radius: 50%;
+	width:18%;
+}
+a{
+	color: #49C0BC;
+	font-weight: bold;
+	width: 20px;
+}
+a:link{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: underline;
+}
+a:visited{
+	text-decoration: none;
+}
